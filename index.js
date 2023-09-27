@@ -23,3 +23,5 @@ function generateRandomPassword() {
     password2.textContent = passwordTwo
 }
 
+window.generateRandomPassword = generateRandomPassword
+window.getRandomCharacter = getRandomCharacter
